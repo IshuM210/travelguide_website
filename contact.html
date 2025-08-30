@@ -4,7 +4,6 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
@@ -12,23 +11,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Contact Section</title>
+
+	<style>
+		.back-btn {
+			display: block;
+			width: fit-content;
+			margin: 30px auto;
+			background: #1a4bbc;
+			color: white;
+			padding: 12px 25px;
+			text-decoration: none;
+			border-radius: 8px;
+			font-size: 16px;
+			transition: all 0.3s ease;
+		}
+		.back-btn:hover {
+			background: #163a94;
+			transform: scale(1.05);
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
 		<main class="row">
-			
-
 			<section class="col left">
-				
-
 				<div class="contactTitle">
 					<h2>Get In Touch</h2>
 					<p>For enquiries on Destinations, Bookings and Travel Tips reach us.</p>
 				</div>
 
-
 				<div class="contactInfo">
-					
 					<div class="iconGroup">
 						<div class="icon">
 							<i class="fa-solid fa-phone"></i>
@@ -58,9 +70,7 @@
 							<span>No.31, Vanniyar Street, Near Amman Mess, Vellore - 632002</span>
 						</div>
 					</div>
-
 				</div>
-
 
 				<div class="socialMedia">
 					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -68,30 +78,22 @@
 					<a href="#"><i class="fa-brands fa-instagram"></i></a>
 					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
 				</div>
-
-
 			</section>
 
-
 			<section class="col right">
-				
-				
-
 				<form class="messageForm">
-
-					
 					<div class="inputGroup halfWidth">
-						<input type="text" name="" required="required">
+						<input type="text" required="required">
 						<label>Your Name</label>
 					</div>
 
 					<div class="inputGroup halfWidth">
-						<input type="email" name="" required="required">
+						<input type="email" required="required">
 						<label>Email</label>
 					</div>
 
 					<div class="inputGroup fullWidth">
-						<input type="text" name="" required="required">
+						<input type="text" required="required">
 						<label>Subject</label>
 					</div>
 
@@ -103,17 +105,12 @@
 					<div class="inputGroup fullWidth">
 						<button>Send Message</button>
 					</div>
-                    
-
 				</form>
-
-				
 			</section>
-
-			
-
 		</main>
+
+		<!-- Back to home button -->
+		<a href="index.html" class="back-btn">⬅ Back to Home</a>
 	</div>
-    
 </body>
 </html>
